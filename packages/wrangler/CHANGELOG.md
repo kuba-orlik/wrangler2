@@ -1,5 +1,16 @@
 # wrangler
 
+## 2.1.13
+
+### Patch Changes
+
+- [#2026](https://github.com/cloudflare/wrangler2/pull/2026) [`7d987ee2`](https://github.com/cloudflare/wrangler2/commit/7d987ee270b53105b2794e8d6bced785b4b0925d) Thanks [@GregBrimble](https://github.com/GregBrimble)! - fix: Default to today's compatibility date in `wrangler pages dev`
+
+  Like `wrangler dev` proper, `wrangler pages dev` now defaults to using today's compatibility date.
+  It can be overriden with `--compatibility-date=YYYY-MM-DD`.
+
+  https://developers.cloudflare.com/workers/platform/compatibility-dates/
+
 ## 2.1.12
 
 ### Patch Changes
